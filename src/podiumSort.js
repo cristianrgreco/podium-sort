@@ -1,6 +1,6 @@
 const podiumSort = (input, mapper = (x) => x) => {
   const mid = Math.floor(input.length / 2);
-  const sortedDesc = input.sort((a, b) => mapper(b) - mapper(a));
+  const sortedDesc = [...input].sort((a, b) => mapper(b) - mapper(a));
   const output = new Array(input.length).fill(null);
 
   for (let i = 0; i < sortedDesc.length; i++) {
