@@ -1,6 +1,6 @@
 {
   "name": "podium-sort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "Sorts arrays putting the highest numbers in the middle",
   "homepage": "https://github.com/cristianrgreco/podium-sort#readme",
@@ -14,7 +14,10 @@
   "scripts": {
     "test": "jest src"
   },
-  "keywords": ["podium", "sort"],
+  "keywords": [
+    "podium",
+    "sort"
+  ],
   "author": "Cristian Greco",
   "license": "ISC",
   "devDependencies": {
