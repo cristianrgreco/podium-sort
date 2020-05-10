@@ -1,1 +1,1 @@
-module.exports = require("./src/podium-sort");
+module.exports = require("./src/podiumSort");
