@@ -1,6 +1,6 @@
 {
   "name": "podium-sort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "description": "Sorts arrays putting the highest numbers in the middle",
   "homepage": "https://github.com/cristianrgreco/podium-sort#readme",
